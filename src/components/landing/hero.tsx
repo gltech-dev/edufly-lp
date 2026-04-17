@@ -33,7 +33,7 @@ export function Hero() {
             <Button
               nativeButton={false}
               className="h-12 rounded-lg bg-brand-600 px-8 text-base font-semibold text-white shadow-lg shadow-brand-600/25 transition-all hover:bg-brand-700 hover:shadow-xl hover:shadow-brand-600/30 active:translate-y-px"
-              render={<Link href="/signup" />}
+              render={<Link href="https://portal.edufly.com.br" />}
             >
               Começar grátis — 7 dias
               <ArrowRight className="ml-1 size-4" data-icon="inline-end" />

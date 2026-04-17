@@ -42,13 +42,13 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-3 md:flex">
-          <Button variant="ghost" nativeButton={false} render={<Link href="/login" />}>
+          <Button variant="ghost" nativeButton={false} render={<Link href="https://portal.edufly.com.br" />}>
             Entrar
           </Button>
           <Button
             nativeButton={false}
             className="rounded-lg bg-brand-600 text-white shadow-sm hover:bg-brand-700"
-            render={<Link href="/signup" />}
+            render={<Link href="https://portal.edufly.com.br" />}
           >
             Começar grátis
           </Button>
@@ -83,14 +83,14 @@ export function Header() {
               variant="outline"
               nativeButton={false}
               className="w-full"
-              render={<Link href="/login" />}
+              render={<Link href="https://portal.edufly.com.br" />}
             >
               Entrar
             </Button>
             <Button
               nativeButton={false}
               className="w-full rounded-lg bg-brand-600 text-white shadow-sm hover:bg-brand-700"
-              render={<Link href="/signup" />}
+              render={<Link href="https://portal.edufly.com.br" />}
             >
               Começar grátis
             </Button>

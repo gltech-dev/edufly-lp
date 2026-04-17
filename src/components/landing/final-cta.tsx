@@ -25,7 +25,7 @@ export function FinalCta() {
           <Button
             nativeButton={false}
             className="mt-10 h-14 rounded-lg bg-brand-600 px-10 text-lg font-semibold text-white shadow-xl shadow-brand-600/25 transition-all hover:bg-brand-700 hover:shadow-2xl hover:shadow-brand-600/30 active:translate-y-px"
-            render={<Link href="/signup" />}
+            render={<Link href="https://portal.edufly.com.br" />}
           >
             Criar minha conta grátis
             <ArrowRight className="ml-2 size-5" data-icon="inline-end" />

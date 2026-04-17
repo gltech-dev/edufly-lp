@@ -11,7 +11,7 @@ const productLinks = [
 const companyLinks = [
   { label: "Sobre nós", href: "#" },
   { label: "Blog", href: "#" },
-  { label: "Contato", href: "#" },
+  { label: "Contato", href: "https://wa.me/5561992545301" },
   { label: "Termos de uso", href: "#" },
   { label: "Política de privacidade", href: "#" },
 ];
@@ -19,7 +19,7 @@ const companyLinks = [
 const supportLinks = [
   { label: "Central de ajuda", href: "#" },
   { label: "contato@edufly.com.br", href: "mailto:contato@edufly.com.br" },
-  { label: "WhatsApp", href: "#" },
+  { label: "WhatsApp", href: "https://wa.me/5561992545301" },
 ];
 
 export function Footer() {

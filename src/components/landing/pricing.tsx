@@ -67,7 +67,7 @@ export function Pricing() {
               <Button
                 nativeButton={false}
                 className="mt-8 h-12 w-full rounded-lg bg-brand-600 text-base font-semibold text-white shadow-lg shadow-brand-600/25 transition-all hover:bg-brand-700 hover:shadow-xl hover:shadow-brand-600/30 active:translate-y-px"
-                render={<Link href="/signup" />}
+                render={<Link href="https://portal.edufly.com.br" />}
               >
                 Começar teste grátis
               </Button>
