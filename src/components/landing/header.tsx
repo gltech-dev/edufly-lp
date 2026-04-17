@@ -20,11 +20,11 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center">
           <Image
-            src="/images/1.svg"
+            src="/images/logo-horizontal.png"
             alt="Edufly"
-            width={500}
-            height={503}
-            className="h-25 w-auto object-contain"
+            width={360}
+            height={140}
+            className="h-9 w-auto"
             priority
           />
         </Link>
