@@ -16,10 +16,11 @@ export function FinalCta() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl">
-            Pare de perder tempo com planilhas
+            Centralize sua escola em um só sistema
           </h2>
           <p className="mt-4 text-lg text-muted-foreground md:text-xl">
-            Comece grátis agora e automatize sua operação em 10 minutos
+            Crie sua organização, configure alunos e responsáveis e automatize
+            a operação em minutos — teste grátis por 7 dias.
           </p>
 
           <Button

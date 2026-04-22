@@ -1,5 +1,6 @@
 import Image from "next/image";
 import {
+  Building2,
   Globe,
   Bell,
   Receipt,
@@ -10,10 +11,20 @@ import {
 
 const features = [
   {
+    icon: Building2,
+    title: "Uma organização para sua escola",
+    description:
+      "Alunos, aulas, materiais e financeiro ficam ligados à sua escola (organização), não espalhados em contas soltas. Professores autorizados podem trabalhar na mesma base — um espaço só para sua operação.",
+    iconBg: "bg-brand-50",
+    iconColor: "text-brand-600",
+    image: "/prints/financeiro-dashboard.png",
+    imageAlt: "Visão financeira e operação centralizada no Edufly",
+  },
+  {
     icon: Globe,
     title: "Landing page profissional",
     description:
-      "Compartilhe professorjoao.edufly.com.br com seus alunos. Planos, preços, contato, tudo automatizado.",
+      "Compartilhe o link da sua escola (ex.: professorjoao.edufly.com.br) com alunos e responsáveis. Planos, preços e contato, alinhados à sua marca.",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
     image: "/prints/landing-page.png",
@@ -53,7 +64,7 @@ const features = [
     icon: Users,
     title: "Portais para pais e alunos",
     description:
-      "Responsáveis acompanham progresso, aprovam cobranças e confirmam aulas. Alunos acessam materiais e homework.",
+      "Responsáveis e alunos enxergam só o que pertence àquela escola: progresso, aprovação de cobranças, confirmação de aulas, materiais e homework.",
     iconBg: "bg-green-50",
     iconColor: "text-green-600",
     image: "/prints/portal-aluno-aulas.png",
@@ -77,10 +88,11 @@ export function Features() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-            Tudo em um só lugar
+            Tudo em um só lugar — por escola
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Automatize 100% da sua operação
+            Recursos pensados para quem atua sozinho ou em equipe, sempre com a
+            escola como centro da gestão
           </p>
         </div>
 

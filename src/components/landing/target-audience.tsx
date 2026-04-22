@@ -4,21 +4,21 @@ const personas = [
   {
     icon: BookOpen,
     title: "Professores particulares de idiomas",
-    text: "10-50 alunos, cobra R$50-150/hora, quer profissionalizar e escalar",
+    text: "10-50 alunos, cobra R$50-150/hora: uma organização para sua marca, com portais e financeiro no mesmo painel",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
   },
   {
     icon: Users,
     title: "Pequenas escolas de idiomas",
-    text: "2-5 professores, 30-100 alunos, precisa organizar operação",
+    text: "2-5 professores, 30-100 alunos: mesma escola, mesma base de alunos e cobrança — equipe alinhada sem planilhas paralelas",
     iconBg: "bg-green-50",
     iconColor: "text-green-600",
   },
   {
     icon: GraduationCap,
     title: "Tutores de reforço escolar",
-    text: "Aulas individuais ou grupos pequenos, quer automatizar gestão",
+    text: "Aulas individuais ou grupos pequenos: estúdio como organização, com automação de agenda e financeiro",
     iconBg: "bg-amber-50",
     iconColor: "text-amber-600",
   },
@@ -30,8 +30,12 @@ export function TargetAudience() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-            Feito para você
+            Feito para você — solo ou em equipe
           </h2>
+          <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
+            Do professor autônomo à escola com vários docentes: o modelo é sempre
+            uma organização por espaço de trabalho.
+          </p>
         </div>
 
         <div className="mt-12 grid gap-6 md:mt-16 md:grid-cols-3 md:gap-8">

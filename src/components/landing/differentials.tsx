@@ -2,6 +2,7 @@ import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const items = [
+  "Alunos, aulas e financeiro amarrados à sua escola (organização)",
   "Confirmação obrigatória pelos pais",
   "Cobranças extras aprovadas antes da fatura",
   "Progresso pedagógico visível 24/7",
@@ -25,11 +26,12 @@ export function Differentials() {
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Enquanto outros só fazem agenda ou só financeiro, Edufly integra
-            tudo com aprovações dos pais.
+            tudo com aprovações dos pais — sempre no contexto da sua escola, com
+            espaço para equipe atuar na mesma base.
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-3 md:mt-16">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4 md:mt-16">
           {items.map((item) => (
             <div
               key={item}

@@ -17,16 +17,17 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-4 pb-16 pt-20 sm:px-6 md:pb-24 md:pt-32 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            Professores mudam vidas.
+            Sua escola ou estúdio, organizado.
             <br />
             <span className="bg-gradient-to-r from-brand-600 to-green-500 bg-clip-text text-transparent">
-              Edufly cuida do resto.
+              Equipe, alunos e financeiro no mesmo lugar.
             </span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-base text-muted-foreground sm:text-lg md:text-xl">
-            A plataforma completa para professores particulares. Da captação de
-            alunos ao recebimento, tudo automatizado.
+            O Edufly gira em torno da sua organização: cada escola tem seus
+            dados, portais e cobrança separados. Do professor solo à equipe na
+            mesma base — da captação ao recebimento, automatizado.
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -62,9 +63,9 @@ export function Hero() {
             </div>
             <p className="text-sm text-muted-foreground">
               <span className="font-semibold text-foreground">
-                +50 professores
+                +50 professores e escolas
               </span>{" "}
-              já automatizaram sua gestão
+              já automatizaram a gestão
             </p>
           </div>
         </div>
@@ -73,7 +74,7 @@ export function Hero() {
           <div className="card-hover relative overflow-hidden rounded-xl border border-border bg-card shadow-2xl shadow-brand-600/5">
             <Image
               src="/prints/landing-page.png"
-              alt="Dashboard do Edufly mostrando o editor de landing page do professor"
+              alt="Dashboard do Edufly com landing e operação da escola"
               width={1024}
               height={576}
               className="w-full"

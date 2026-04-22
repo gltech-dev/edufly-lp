@@ -32,6 +32,10 @@ export function PainPoints() {
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
             Você perde horas toda semana com...
           </h2>
+          <p className="mt-4 text-lg text-muted-foreground">
+            Especialmente quando cada professor ou unidade usa uma ferramenta
+            diferente e ninguém vê o quadro inteiro da escola.
+          </p>
         </div>
 
         <div className="mt-12 grid gap-6 md:mt-16 md:grid-cols-3 md:gap-8">

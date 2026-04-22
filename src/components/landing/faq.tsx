@@ -23,6 +23,14 @@ const questions = [
     a: "Via sua landing page personalizada (professorjoao.edufly.com.br) ou links diretos que você envia.",
   },
   {
+    q: 'O que significa "organização" ou escola no Edufly?',
+    a: "É o espaço de trabalho da sua operação: alunos, aulas, materiais e financeiro ficam ligados a essa escola. Pais e alunos veem apenas o que pertence a ela — não mistura com outro negócio.",
+  },
+  {
+    q: "Vários professores na mesma escola podem usar?",
+    a: "Sim. A estrutura permite mais de um professor com acesso à mesma organização, para dividir alunos e rotina na mesma base. Quem abre a conta guia o cadastro; para incluir novos membros na equipe, use o suporte enquanto evoluímos o fluxo self-service.",
+  },
+  {
     q: "Edufly funciona no celular?",
     a: "Sim, 100% mobile. Você, pais e alunos acessam de qualquer dispositivo.",
   },

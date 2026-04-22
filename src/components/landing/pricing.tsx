@@ -4,6 +4,7 @@ import { Check } from "lucide-react";
 
 const includes = [
   "Alunos ilimitados",
+  "Uma organização (escola ou estúdio) por conta",
   "Landing page profissional",
   "Confirmação de presença",
   "Financeiro variável",

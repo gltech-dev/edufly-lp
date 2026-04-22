@@ -18,9 +18,9 @@ export function Footer() {
               />
             </Link>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-              Professores mudam vidas.
+              Gestão por escola, com portais para pais e alunos.
               <br />
-              Edufly cuida do resto.
+              Solo ou em equipe — Edufly organiza o resto.
             </p>
           </div>
 
