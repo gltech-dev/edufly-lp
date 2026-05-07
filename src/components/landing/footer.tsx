@@ -87,6 +87,14 @@ export function Footer() {
         </div>
 
         <div className="mt-8 border-t border-border pt-6 text-center">
+          <div className="mb-3">
+            <Link
+              href="/politica-de-privacidade"
+              className="text-xs text-muted-foreground underline-offset-4 transition-colors hover:text-foreground hover:underline"
+            >
+              Política de Privacidade
+            </Link>
+          </div>
           <p className="text-xs text-muted-foreground">
             © 2026 Edufly. Todos os direitos reservados.
           </p>
