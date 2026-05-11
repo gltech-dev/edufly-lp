@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, MessageCircle } from "lucide-react";
+import { EDUFLY_YOUTUBE_CHANNEL_URL, eduflyWhatsAppUrl } from "@/lib/edufly-contact";
 
 export function FinalCta() {
   return (
@@ -23,16 +24,47 @@ export function FinalCta() {
             a operação em minutos — teste grátis por 7 dias.
           </p>
 
-          <Button
-            nativeButton={false}
-            className="mt-10 h-14 rounded-lg bg-brand-600 px-10 text-lg font-semibold text-white shadow-xl shadow-brand-600/25 transition-all hover:bg-brand-700 hover:shadow-2xl hover:shadow-brand-600/30 active:translate-y-px"
-            render={<Link href="https://portal.edufly.com.br" />}
-          >
-            Criar minha conta grátis
-            <ArrowRight className="ml-2 size-5" data-icon="inline-end" />
-          </Button>
+          <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row sm:flex-wrap">
+            <Button
+              nativeButton={false}
+              className="h-14 rounded-lg bg-brand-600 px-10 text-lg font-semibold text-white shadow-xl shadow-brand-600/25 transition-all hover:bg-brand-700 hover:shadow-2xl hover:shadow-brand-600/30 active:translate-y-px"
+              render={<Link href="https://portal.edufly.com.br" />}
+            >
+              Criar minha conta grátis
+              <ArrowRight className="ml-2 size-5" data-icon="inline-end" />
+            </Button>
+            <Button
+              nativeButton={false}
+              variant="outline"
+              className="h-14 rounded-lg border-green-200 bg-green-50 px-8 text-base font-semibold text-green-800 hover:bg-green-100"
+              render={
+                <a
+                  href={eduflyWhatsAppUrl(
+                    "Olá! Vim pelo site da Edufly e quero tirar dúvidas antes de criar a conta.",
+                  )}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
+              }
+            >
+              <MessageCircle className="mr-2 size-5" data-icon="inline-start" />
+              Falar no WhatsApp
+            </Button>
+          </div>
 
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
+          <p className="mt-6 text-center text-sm text-muted-foreground">
+            <a
+              href={EDUFLY_YOUTUBE_CHANNEL_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-foreground underline-offset-4 transition-colors hover:underline"
+            >
+              Canal no YouTube
+            </a>
+            {" — tutoriais e novidades do produto."}
+          </p>
+
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
             <span className="flex items-center gap-1.5">
               <span className="text-green-500">✓</span> 7 dias grátis
             </span>

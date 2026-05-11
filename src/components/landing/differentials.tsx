@@ -3,9 +3,11 @@ import { Button } from "@/components/ui/button";
 
 const items = [
   "Alunos, aulas e financeiro amarrados à sua escola (organização)",
-  "Confirmação obrigatória pelos pais",
-  "Cobranças extras aprovadas antes da fatura",
-  "Progresso pedagógico visível 24/7",
+  "Confirmação de presença pelos responsáveis — menos no-show",
+  "Cobranças extras aprovadas antes da fatura — transparência com a família",
+  "Google Calendar e lembretes por e-mail (e WhatsApp, quando você configurar)",
+  "Homework e feedback no portal, com histórico para o aluno",
+  "Progresso pedagógico visível para pais e alunos a qualquer hora",
 ];
 
 export function Differentials() {
@@ -22,16 +24,16 @@ export function Differentials() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-            O único com transparência total
+            O que separa o Edufly de “só mais uma agenda”
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Enquanto outros só fazem agenda ou só financeiro, Edufly integra
-            tudo com aprovações dos pais — sempre no contexto da sua escola, com
-            espaço para equipe atuar na mesma base.
+            Ferramentas soltas deixam cobrança e comunicação no escuro. O Edufly
+            une captação, aula, confirmação, financeiro e acompanhamento pedagógico
+            com regras claras para responsáveis e equipe — na mesma organização.
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4 md:mt-16">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 md:mt-16">
           {items.map((item) => (
             <div
               key={item}

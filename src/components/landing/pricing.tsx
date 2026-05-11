@@ -5,14 +5,15 @@ import { Check } from "lucide-react";
 const includes = [
   "Alunos ilimitados",
   "Uma organização (escola ou estúdio) por conta",
-  "Landing page profissional",
-  "Confirmação de presença",
-  "Financeiro variável",
-  "Portais pais + alunos",
-  "Homework online",
-  "Analytics completo",
-  "Google Calendar sync",
-  "Suporte por email",
+  "Landing page com a sua marca e link próprio",
+  "Confirmação de presença pelos responsáveis",
+  "Financeiro com cobranças aprovadas antes da fatura",
+  "Portais para pais e alunos",
+  "Homework online com correção e histórico",
+  "Acompanhamento pedagógico e relatórios",
+  "Google Calendar integrado às aulas",
+  "Lembretes por e-mail e opções de WhatsApp (conforme configuração)",
+  "Suporte por e-mail",
 ];
 
 export function Pricing() {
@@ -24,7 +25,7 @@ export function Pricing() {
             Comece grátis hoje
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Teste completo por 7 dias. Sem cartão de crédito.
+            Teste completo por 7 dias, com os principais fluxos da escola. Sem cartão de crédito.
           </p>
         </div>
 

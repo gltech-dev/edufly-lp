@@ -3,6 +3,7 @@ import {
   Building2,
   Globe,
   Bell,
+  Calendar,
   Receipt,
   BookOpen,
   Users,
@@ -14,7 +15,7 @@ const features = [
     icon: Building2,
     title: "Uma organização para sua escola",
     description:
-      "Alunos, aulas, materiais e financeiro ficam ligados à sua escola (organização), não espalhados em contas soltas. Professores autorizados podem trabalhar na mesma base — um espaço só para sua operação.",
+      "Alunos, aulas, materiais e financeiro ficam ligados à sua escola (organização), sem dados espalhados em contas soltas. Professores autorizados trabalham na mesma base, com visão única da operação — menos retrabalho, menos erro manual.",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
     image: "/prints/financeiro-dashboard.png",
@@ -24,7 +25,7 @@ const features = [
     icon: Globe,
     title: "Landing page profissional",
     description:
-      "Compartilhe o link da sua escola (ex.: professorjoao.edufly.com.br) com alunos e responsáveis. Planos, preços e contato, alinhados à sua marca.",
+      "Compartilhe o link da sua escola (ex.: professorjoao.edufly.com.br) com alunos e responsáveis. Planos, preços e contato no ar em minutos — a primeira impressão profissional que fecha matrícula.",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
     image: "/prints/landing-page.png",
@@ -34,17 +35,27 @@ const features = [
     icon: Bell,
     title: "Confirmação de presença",
     description:
-      "Pais confirmam aulas 24h antes por email. No-shows caem de 25% para menos de 5%.",
+      "Responsáveis confirmam aulas com antecedência por e-mail. Você reduz no-show, enche a agenda com previsibilidade e deixa de perseguir confirmação em grupos de WhatsApp.",
     iconBg: "bg-green-50",
     iconColor: "text-green-600",
     image: "/prints/confirmacao-email.png",
     imageAlt: "Email de confirmação de presença enviado pelo Edufly",
   },
   {
+    icon: Calendar,
+    title: "Google Calendar e lembretes em mais canais",
+    description:
+      "Conecte o Google Calendar às aulas e combine e-mail com lembretes por WhatsApp quando fizer sentido para a sua escola — inclusive fluxo por QR (estilo WhatsApp Web) com servidor hospedado pela Edufly ou Evolution próprio, conforme a sua configuração.",
+    iconBg: "bg-brand-50",
+    iconColor: "text-brand-600",
+    image: "/prints/confirmacao-email.png",
+    imageAlt: "Lembretes e comunicação com alunos e responsáveis no Edufly",
+  },
+  {
     icon: Receipt,
     title: "Financeiro completo",
     description:
-      "Faturas automáticas, cobranças variáveis, controle de inadimplência. Transparência total.",
+      "Faturas automáticas, cobranças variáveis e controle de inadimplência com visão de receita e MRR. Responsáveis aprovam extras antes da fatura — transparência que evita surpresa na cobrança e atrito com a família.",
     iconBg: "bg-amber-50",
     iconColor: "text-amber-600",
     image: "/prints/financeiro-dashboard.png",
@@ -54,7 +65,7 @@ const features = [
     icon: BookOpen,
     title: "Deveres de casa online",
     description:
-      "Alunos enviam homework pelo portal. Corrija, dê notas e feedback. Tudo registrado.",
+      "Alunos enviam homework pelo portal; você corrige, dá notas e feedback com histórico. Tudo registrado para mostrar evolução e valorizar o trabalho feito entre uma aula e outra.",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
     image: "/prints/atividades-aluno.png",
@@ -64,7 +75,7 @@ const features = [
     icon: Users,
     title: "Portais para pais e alunos",
     description:
-      "Responsáveis e alunos enxergam só o que pertence àquela escola: progresso, aprovação de cobranças, confirmação de aulas, materiais e homework.",
+      "Responsáveis e alunos enxergam só o que pertence àquela escola: progresso, aprovação de cobranças, confirmação de aulas, materiais e homework. Menos mensagem duplicada, mais confiança na sua marca.",
     iconBg: "bg-green-50",
     iconColor: "text-green-600",
     image: "/prints/portal-aluno-aulas.png",
@@ -74,7 +85,7 @@ const features = [
     icon: BarChart3,
     title: "Acompanhamento pedagógico",
     description:
-      "Timeline de progresso, performance charts, notas de aula. Mostre evolução para os pais.",
+      "Timeline de progresso, gráficos de desempenho e notas de aula em um só lugar. Argumentos concretos na retenção e na conversa com a família — sem montar relatório na mão.",
     iconBg: "bg-amber-50",
     iconColor: "text-amber-600",
     image: "/prints/evolucao-aluno.png",
@@ -91,8 +102,7 @@ export function Features() {
             Tudo em um só lugar — por escola
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Recursos pensados para quem atua sozinho ou em equipe, sempre com a
-            escola como centro da gestão
+            Do primeiro contato na landing ao pagamento confirmado: fluxos que se conversam, com a escola como centro — para quem atua solo ou em equipe.
           </p>
         </div>
 

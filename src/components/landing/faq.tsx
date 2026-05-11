@@ -35,6 +35,10 @@ const questions = [
     a: "Sim, 100% mobile. Você, pais e alunos acessam de qualquer dispositivo.",
   },
   {
+    q: "Tem integração com Google Calendar e WhatsApp?",
+    a: "Sim. Você pode conectar o Google Calendar às aulas. Para lembretes por WhatsApp, a escola pode usar a opção hospedada pela Edufly (via QR, no estilo WhatsApp Web), um servidor Evolution próprio ou seguir só com e-mail e outros canais — conforme o que estiver disponível no seu ambiente.",
+  },
+  {
     q: "Meus dados ficam seguros?",
     a: "Sim. Criptografia, backup diário, LGPD-compliant, hospedado na nuvem.",
   },

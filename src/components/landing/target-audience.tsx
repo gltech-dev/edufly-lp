@@ -33,8 +33,7 @@ export function TargetAudience() {
             Feito para você — solo ou em equipe
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            Do professor autônomo à escola com vários docentes: o modelo é sempre
-            uma organização por espaço de trabalho.
+            Do professor autônomo à escola com vários docentes: uma organização por espaço de trabalho, com a mesma qualidade de gestão em qualquer escala.
           </p>
         </div>
 

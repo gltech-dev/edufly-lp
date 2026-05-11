@@ -33,8 +33,7 @@ export function PainPoints() {
             Você perde horas toda semana com...
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Especialmente quando cada professor ou unidade usa uma ferramenta
-            diferente e ninguém vê o quadro inteiro da escola.
+            Pior quando cada professor usa uma ferramenta diferente e ninguém enxerga matrícula, cobrança e frequência no mesmo lugar.
           </p>
         </div>
 

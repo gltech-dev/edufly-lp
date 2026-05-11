@@ -1,6 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { MessageCircle } from "lucide-react";
+import { YoutubeIcon } from "@/components/icons/youtube-icon";
+import {
+  EDUFLY_WHATSAPP_LABEL,
+  EDUFLY_YOUTUBE_CHANNEL_URL,
+  eduflyWhatsAppUrl,
+} from "@/lib/edufly-contact";
 
 export function Footer() {
   return (
@@ -18,9 +24,7 @@ export function Footer() {
               />
             </Link>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-              Gestão por escola, com portais para pais e alunos.
-              <br />
-              Solo ou em equipe — Edufly organiza o resto.
+              Captação, aulas, confirmação, financeiro e acompanhamento pedagógico na mesma base — com portais para pais e alunos. Solo ou em equipe.
             </p>
           </div>
 
@@ -59,7 +63,7 @@ export function Footer() {
 
           <div className="flex flex-col gap-3">
             <a
-              href="https://wa.me/5561992545301"
+              href={eduflyWhatsAppUrl("Olá! Vim pelo site da Edufly e gostaria de mais informações.")}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 rounded-lg border border-green-200 bg-green-50 px-5 py-3 text-sm font-medium text-green-800 transition-colors hover:bg-green-100"
@@ -68,9 +72,18 @@ export function Footer() {
               <span>
                 Fale conosco pelo WhatsApp
                 <span className="block text-xs font-normal text-green-600">
-                  (61) 99254-5301
+                  {EDUFLY_WHATSAPP_LABEL}
                 </span>
               </span>
+            </a>
+            <a
+              href={EDUFLY_YOUTUBE_CHANNEL_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2.5 rounded-lg border border-border px-5 py-3 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+            >
+              <YoutubeIcon className="size-5 shrink-0 text-red-600" />
+              YouTube @edufly-edu
             </a>
             <a
               href="https://instagram.com/_edufly"

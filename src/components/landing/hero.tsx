@@ -25,9 +25,9 @@ export function Hero() {
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-base text-muted-foreground sm:text-lg md:text-xl">
-            O Edufly gira em torno da sua organização: cada escola tem seus
-            dados, portais e cobrança separados. Do professor solo à equipe na
-            mesma base — da captação ao recebimento, automatizado.
+            Da captação com landing no seu domínio à confirmação de presença, Google Calendar, financeiro com cobranças
+            aprovadas pelos responsáveis e portais para pais e alunos — tudo na mesma base, do professor solo à equipe
+            na mesma escola.
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">

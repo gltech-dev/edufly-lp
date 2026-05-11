@@ -5,6 +5,7 @@ import { Features } from "@/components/landing/features";
 import { Differentials } from "@/components/landing/differentials";
 import { TargetAudience } from "@/components/landing/target-audience";
 import { Pricing } from "@/components/landing/pricing";
+import { Testimonials } from "@/components/landing/testimonials";
 import { Faq } from "@/components/landing/faq";
 import { FinalCta } from "@/components/landing/final-cta";
 import { Footer } from "@/components/landing/footer";
@@ -18,6 +19,7 @@ export default function Home() {
         <PainPoints />
         <Features />
         <Differentials />
+        <Testimonials />
         <TargetAudience />
         <Pricing />
         <Faq />
