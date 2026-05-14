@@ -2,6 +2,13 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { FloatingSocial } from "@/components/landing/floating-social";
+import {
+  SITE_DESCRIPTION,
+  SITE_KEYWORDS,
+  SITE_NAME,
+  SITE_OG_DESCRIPTION,
+  SITE_URL,
+} from "@/lib/site";
 
 const inter = Inter({
   variable: "--font-sans",
@@ -9,23 +16,22 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://edufly.com.br"),
-  title: "Edufly - Plataforma completa para professores particulares",
-  description:
-    "Da captação ao pagamento: landing com a sua marca, confirmação de presença pelos responsáveis, Google Calendar, financeiro com cobranças aprovadas, portais para pais e alunos, homework e relatórios. Teste grátis por 7 dias.",
-  keywords:
-    "gestão escolar, professores particulares, escola de idiomas, landing page professor, confirmação presença, financeiro educação",
+  metadataBase: new URL(SITE_URL),
+  title: `${SITE_NAME} - Plataforma completa para professores particulares`,
+  description: SITE_DESCRIPTION,
+  keywords: SITE_KEYWORDS,
   openGraph: {
-    title: "Edufly - Da captação ao pagamento, tudo automatizado",
-    description:
-      "Landing profissional, confirmação de presença, financeiro com aprovação de cobranças, Google Calendar, portais para pais e alunos, homework e acompanhamento pedagógico — na mesma base, por escola.",
+    title: `${SITE_NAME} - Da captação ao pagamento, tudo automatizado`,
+    description: SITE_OG_DESCRIPTION,
     images: ["/og-image.png"],
-    url: "https://edufly.com.br",
+    url: SITE_URL,
     type: "website",
+    locale: "pt_BR",
+    siteName: SITE_NAME,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Edufly - Plataforma para professores particulares",
+    title: `${SITE_NAME} - Plataforma para professores particulares`,
     description: "Automatize sua operação em 10 minutos. Teste grátis.",
   },
 };

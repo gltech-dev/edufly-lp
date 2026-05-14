@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Termos de Serviço | Edufly",
   description: "Termos de Serviço da Edufly.",
+  alternates: {
+    canonical: `${SITE_URL}/termos-de-servico`,
+  },
 };
 
 export default function TermosDeServicoPage() {
