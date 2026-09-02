@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { label: "Recursos", href: "#recursos" },
-  { label: "Preços", href: "#precos" },
-  { label: "Para quem é", href: "#para-quem" },
+  { label: "Recursos", href: "/#recursos" },
+  { label: "Preços", href: "/#precos" },
+  { label: "Para quem é", href: "/#para-quem" },
 ];
 
 export function Header() {
@@ -31,13 +31,13 @@ export function Header() {
 
         <nav className="hidden items-center gap-1 md:flex">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -68,14 +68,14 @@ export function Header() {
         <div className="border-t border-border/50 bg-white px-4 pb-4 md:hidden">
           <nav className="flex flex-col gap-1 pt-2">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
                 className="rounded-lg px-3 py-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
           <div className="mt-3 flex flex-col gap-2">

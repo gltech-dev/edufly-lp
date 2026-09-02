@@ -41,12 +41,28 @@ const graph = [
     operatingSystem: "Any",
     url: SITE_URL,
     description: SITE_DESCRIPTION,
-    offers: {
-      "@type": "Offer",
-      price: "0",
-      priceCurrency: "BRL",
-      description: "Teste grátis por 7 dias, sem cartão",
-    },
+    offers: [
+      {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "BRL",
+        description: "Teste grátis por 7 dias, sem cartão",
+      },
+      {
+        "@type": "Offer",
+        name: "Mensal",
+        price: "59",
+        priceCurrency: "BRL",
+        description: "Plano mensal após o teste",
+      },
+      {
+        "@type": "Offer",
+        name: "Anual",
+        price: "588",
+        priceCurrency: "BRL",
+        description: "Plano anual após o teste",
+      },
+    ],
     provider: { "@id": organizationId },
   },
   {

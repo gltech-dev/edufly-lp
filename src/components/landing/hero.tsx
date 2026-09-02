@@ -17,17 +17,16 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-4 pb-16 pt-20 sm:px-6 md:pb-24 md:pt-32 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            Sua escola ou estúdio, organizado.
+            Suas aulas, seus alunos, seu financeiro.
             <br />
             <span className="bg-gradient-to-r from-brand-600 to-green-500 bg-clip-text text-transparent">
-              Equipe, alunos e financeiro no mesmo lugar.
+              Tudo no mesmo lugar.
             </span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-base text-muted-foreground sm:text-lg md:text-xl">
-            Da captação com landing no seu domínio à confirmação de presença, Google Calendar, financeiro com cobranças
-            aprovadas pelos responsáveis e portais para pais e alunos — tudo na mesma base, do professor solo à equipe
-            na mesma escola.
+            Landing com o seu nome, confirmação de presença, Google Calendar, cobrança com aprovação dos responsáveis e
+            portais para pais e alunos. Você ensina; a operação deixa de viver no WhatsApp e na planilha.
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -63,9 +62,9 @@ export function Hero() {
             </div>
             <p className="text-sm text-muted-foreground">
               <span className="font-semibold text-foreground">
-                +50 professores e escolas
+                +50 professores
               </span>{" "}
-              já automatizaram a gestão
+              já organizaram aulas, alunos e cobrança
             </p>
           </div>
         </div>
@@ -74,7 +73,7 @@ export function Hero() {
           <div className="card-hover relative overflow-hidden rounded-xl border border-border bg-card shadow-2xl shadow-brand-600/5">
             <Image
               src="/prints/landing-page.png"
-              alt="Dashboard do Edufly com landing e operação da escola"
+              alt="Painel do professor no Edufly, com landing, aulas e financeiro"
               width={1024}
               height={576}
               className="w-full"

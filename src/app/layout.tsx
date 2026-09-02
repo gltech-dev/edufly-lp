@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
   keywords: SITE_KEYWORDS,
   openGraph: {
-    title: `${SITE_NAME} - Da captação ao pagamento, tudo automatizado`,
+    title: `${SITE_NAME} - Suas aulas, seus alunos, seu financeiro`,
     description: SITE_OG_DESCRIPTION,
     images: ["/og-image.png"],
     url: SITE_URL,
@@ -32,7 +32,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} - Plataforma para professores particulares`,
-    description: "Automatize sua operação em 10 minutos. Teste grátis.",
+    description:
+      "Landing, aulas, confirmação e cobrança no mesmo painel. Teste grátis por 7 dias.",
   },
 };
 

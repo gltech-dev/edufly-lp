@@ -1,6 +1,6 @@
 import Image from "next/image";
 import {
-  Building2,
+  LayoutDashboard,
   Globe,
   Bell,
   Calendar,
@@ -12,20 +12,20 @@ import {
 
 const features = [
   {
-    icon: Building2,
-    title: "Uma organização para sua escola",
+    icon: LayoutDashboard,
+    title: "Tudo da sua operação em um só painel",
     description:
-      "Alunos, aulas, materiais e financeiro ficam ligados à sua escola (organização), sem dados espalhados em contas soltas. Professores autorizados trabalham na mesma base, com visão única da operação — menos retrabalho, menos erro manual.",
+      "Alunos, aulas, materiais e financeiro ficam juntos, sem planilha paralela nem dado perdido em outra conta. Se você der aula com outro professor, dá para trabalhar na mesma base — sem retrabalho.",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
     image: "/prints/financeiro-dashboard.png",
-    imageAlt: "Visão financeira e operação centralizada no Edufly",
+    imageAlt: "Visão financeira e operação do professor no Edufly",
   },
   {
     icon: Globe,
-    title: "Landing page profissional",
+    title: "Landing page com o seu nome",
     description:
-      "Compartilhe o link da sua escola (ex.: professorjoao.edufly.com.br) com alunos e responsáveis. Planos, preços e contato no ar em minutos — a primeira impressão profissional que fecha matrícula.",
+      "Compartilhe um link seu (ex.: professorjoao.edufly.com.br) com alunos e responsáveis. Planos, preços e contato no ar em minutos — a primeira impressão que fecha matrícula.",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
     image: "/prints/landing-page.png",
@@ -35,7 +35,7 @@ const features = [
     icon: Bell,
     title: "Confirmação de presença",
     description:
-      "Responsáveis confirmam aulas com antecedência por e-mail. Você reduz no-show, enche a agenda com previsibilidade e deixa de perseguir confirmação em grupos de WhatsApp.",
+      "Responsáveis confirmam aulas com antecedência por e-mail. Você reduz no-show, enche a agenda com previsibilidade e deixa de perseguir confirmação no WhatsApp.",
     iconBg: "bg-green-50",
     iconColor: "text-green-600",
     image: "/prints/confirmacao-email.png",
@@ -45,7 +45,7 @@ const features = [
     icon: Calendar,
     title: "Google Calendar e lembretes em mais canais",
     description:
-      "Conecte o Google Calendar às aulas e combine e-mail com lembretes por WhatsApp quando fizer sentido para a sua escola — inclusive fluxo por QR (estilo WhatsApp Web) com servidor hospedado pela Edufly ou Evolution próprio, conforme a sua configuração.",
+      "Conecte o Google Calendar às suas aulas e combine e-mail com lembretes por WhatsApp quando fizer sentido — inclusive fluxo por QR (estilo WhatsApp Web) com servidor hospedado pela Edufly ou Evolution próprio, conforme a sua configuração.",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
     image: "/prints/confirmacao-email.png",
@@ -55,7 +55,7 @@ const features = [
     icon: Receipt,
     title: "Financeiro completo",
     description:
-      "Faturas automáticas, cobranças variáveis e controle de inadimplência com visão de receita e MRR. Responsáveis aprovam extras antes da fatura — transparência que evita surpresa na cobrança e atrito com a família.",
+      "Faturas automáticas, cobranças variáveis e controle de inadimplência com visão de receita. Responsáveis aprovam extras antes da fatura — transparência que evita surpresa na cobrança e atrito com a família.",
     iconBg: "bg-amber-50",
     iconColor: "text-amber-600",
     image: "/prints/financeiro-dashboard.png",
@@ -65,7 +65,7 @@ const features = [
     icon: BookOpen,
     title: "Deveres de casa online",
     description:
-      "Alunos enviam homework pelo portal; você corrige, dá notas e feedback com histórico. Tudo registrado para mostrar evolução e valorizar o trabalho feito entre uma aula e outra.",
+      "Alunos enviam homework pelo portal; você corrige, dá notas e feedback com histórico. Tudo registrado para mostrar evolução e valorizar o trabalho entre uma aula e outra.",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
     image: "/prints/atividades-aluno.png",
@@ -75,7 +75,7 @@ const features = [
     icon: Users,
     title: "Portais para pais e alunos",
     description:
-      "Responsáveis e alunos enxergam só o que pertence àquela escola: progresso, aprovação de cobranças, confirmação de aulas, materiais e homework. Menos mensagem duplicada, mais confiança na sua marca.",
+      "Responsáveis e alunos veem o que é da sua aula: progresso, aprovação de cobranças, confirmação, materiais e homework. Menos mensagem duplicada, mais confiança no seu trabalho.",
     iconBg: "bg-green-50",
     iconColor: "text-green-600",
     image: "/prints/portal-aluno-aulas.png",
@@ -99,10 +99,10 @@ export function Features() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-            Tudo em um só lugar — por escola
+            Tudo em um só lugar — para você dar aula
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Do primeiro contato na landing ao pagamento confirmado: fluxos que se conversam, com a escola como centro — para quem atua solo ou em equipe.
+            Do primeiro contato na landing ao pagamento confirmado: fluxos que se conversam no seu painel.
           </p>
         </div>
 

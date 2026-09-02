@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const items = [
-  "Alunos, aulas e financeiro amarrados à sua escola (organização)",
+  "Alunos, aulas e financeiro no seu painel — sem planilha paralela",
   "Confirmação de presença pelos responsáveis — menos no-show",
   "Cobranças extras aprovadas antes da fatura — transparência com a família",
   "Google Calendar e lembretes por e-mail (e WhatsApp, quando você configurar)",
@@ -29,7 +29,7 @@ export function Differentials() {
           <p className="mt-4 text-lg text-muted-foreground">
             Ferramentas soltas deixam cobrança e comunicação no escuro. O Edufly
             une captação, aula, confirmação, financeiro e acompanhamento pedagógico
-            com regras claras para responsáveis e equipe — na mesma organização.
+            com regras claras para responsáveis — no seu espaço de trabalho.
           </p>
         </div>
 

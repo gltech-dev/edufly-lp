@@ -33,7 +33,7 @@ export function PainPoints() {
             Você perde horas toda semana com...
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Pior quando cada professor usa uma ferramenta diferente e ninguém enxerga matrícula, cobrança e frequência no mesmo lugar.
+            Planilha para aluno, calendário para aula, WhatsApp para cobrar. Você no meio — e a receita escapando.
           </p>
         </div>
 

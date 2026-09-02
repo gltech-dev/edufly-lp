@@ -4,23 +4,23 @@ const personas = [
   {
     icon: BookOpen,
     title: "Professores particulares de idiomas",
-    text: "10-50 alunos, cobra R$50-150/hora: uma organização para sua marca, com portais e financeiro no mesmo painel",
+    text: "10–50 alunos, cobra por hora ou pacote: a sua marca, com portais e financeiro no mesmo painel.",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
   },
   {
-    icon: Users,
-    title: "Pequenas escolas de idiomas",
-    text: "2-5 professores, 30-100 alunos: mesma escola, mesma base de alunos e cobrança — equipe alinhada sem planilhas paralelas",
-    iconBg: "bg-green-50",
-    iconColor: "text-green-600",
-  },
-  {
     icon: GraduationCap,
     title: "Tutores de reforço escolar",
-    text: "Aulas individuais ou grupos pequenos: estúdio como organização, com automação de agenda e financeiro",
+    text: "Aulas individuais ou grupos pequenos: agenda, confirmação e cobrança sem perseguir família no WhatsApp.",
     iconBg: "bg-amber-50",
     iconColor: "text-amber-600",
+  },
+  {
+    icon: Users,
+    title: "Quem dá aula com outros professores",
+    text: "Dois ou três colegas, mesma base de alunos e cobrança — alinhados, sem planilha paralela.",
+    iconBg: "bg-green-50",
+    iconColor: "text-green-600",
   },
 ];
 
@@ -30,10 +30,10 @@ export function TargetAudience() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-            Feito para você — solo ou em equipe
+            Feito para quem dá aula
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
-            Do professor autônomo à escola com vários docentes: uma organização por espaço de trabalho, com a mesma qualidade de gestão em qualquer escala.
+            O ponto de partida é o professor. Se um dia você tiver colegas na mesma operação, o produto acompanha — sem mudar a lógica.
           </p>
         </div>
 

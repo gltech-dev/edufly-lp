@@ -24,7 +24,7 @@ export function Footer() {
               />
             </Link>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-              Captação, aulas, confirmação, financeiro e acompanhamento pedagógico na mesma base — com portais para pais e alunos. Solo ou em equipe.
+              Captação, aulas, confirmação, financeiro e acompanhamento pedagógico no seu painel — com portais para pais e alunos.
             </p>
           </div>
 
@@ -33,19 +33,19 @@ export function Footer() {
               <h3 className="font-semibold">Produto</h3>
               <ul className="mt-3 space-y-2">
                 <li>
-                  <a href="#recursos" className="text-muted-foreground transition-colors hover:text-foreground">
+                  <Link href="/#recursos" className="text-muted-foreground transition-colors hover:text-foreground">
                     Recursos
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#precos" className="text-muted-foreground transition-colors hover:text-foreground">
+                  <Link href="/#precos" className="text-muted-foreground transition-colors hover:text-foreground">
                     Preços
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#para-quem" className="text-muted-foreground transition-colors hover:text-foreground">
+                  <Link href="/#para-quem" className="text-muted-foreground transition-colors hover:text-foreground">
                     Para quem é
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
