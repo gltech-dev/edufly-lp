@@ -1,43 +1,51 @@
-import { FileSpreadsheet, DollarSign, Clock } from "lucide-react";
+import { FileSpreadsheet, DollarSign, EyeOff, TrendingUp } from "lucide-react";
 
 const pains = [
   {
     icon: FileSpreadsheet,
-    title: "Planilhas desorganizadas",
-    text: "Excel para alunos, Google Calendar para aulas, WhatsApp para cobrança. Tudo separado.",
+    title: "O caos das ferramentas soltas",
+    text: "Alunos no WhatsApp, horários no caderno, controle em planilhas que você esquece de atualizar e materiais espalhados em pastas infinitas.",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
   },
   {
     icon: DollarSign,
-    title: "Perda de receita",
-    text: "No-shows de 25%, inadimplência, aulas extras não cobradas. Dinheiro deixado na mesa.",
+    title: "O desconforto de cobrar",
+    text: "A vergonha de lembrar os pais do pagamento, mensagens de cobrança ignoradas e o prejuízo silencioso dos cancelamentos em cima da hora.",
     iconBg: "bg-amber-50",
     iconColor: "text-amber-600",
   },
   {
-    icon: Clock,
-    title: "8-12h/semana perdidas",
-    text: "Tempo que você poderia estar ensinando, gasto com administração manual.",
+    icon: EyeOff,
+    title: "O trabalho invisível",
+    text: "Horas fora da aula preparando atividades e relatórios que os responsáveis simplesmente não enxergam e não valorizam.",
     iconBg: "bg-destructive/10",
     iconColor: "text-destructive",
+  },
+  {
+    icon: TrendingUp,
+    title: "A armadilha do crescimento",
+    text: "Quando mais alunos chegam, a qualidade de vida desaparece. Você bate no teto físico de horários e vive na insegurança da sazonalidade.",
+    iconBg: "bg-green-50",
+    iconColor: "text-green-600",
   },
 ];
 
 export function PainPoints() {
   return (
-    <section className="py-16 md:py-24">
+    <section id="dor" className="py-16 md:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
+        <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-            Você perde horas toda semana com...
+            Você escolheu ensinar, mas virou secretária, cobradora e refém do próprio WhatsApp.
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Planilha para aluno, calendário para aula, WhatsApp para cobrar. Você no meio — e a receita escapando.
+            O paradoxo de quem dá aula particular é cruel: você estuda, prepara com excelência e gera transformação de
+            verdade. Na hora de gerenciar o negócio, ainda opera como horista.
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 md:mt-16 md:grid-cols-3 md:gap-8">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 md:mt-16 md:gap-8">
           {pains.map((pain) => (
             <div
               key={pain.title}
@@ -55,6 +63,10 @@ export function PainPoints() {
             </div>
           ))}
         </div>
+
+        <p className="mx-auto mt-10 max-w-2xl text-center text-base font-medium text-foreground md:text-lg">
+          Organização não é uma questão de ter mais disciplina. É sobre ter o sistema certo.
+        </p>
       </div>
     </section>
   );

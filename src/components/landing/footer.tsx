@@ -24,7 +24,7 @@ export function Footer() {
               />
             </Link>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-              Captação, aulas, confirmação, financeiro e acompanhamento pedagógico no seu painel — com portais para pais e alunos.
+              Você foca nas aulas, a Edufly cuida do resto.
             </p>
           </div>
 
@@ -33,6 +33,11 @@ export function Footer() {
               <h3 className="font-semibold">Produto</h3>
               <ul className="mt-3 space-y-2">
                 <li>
+                  <Link href="/#pilares" className="text-muted-foreground transition-colors hover:text-foreground">
+                    Como funciona
+                  </Link>
+                </li>
+                <li>
                   <Link href="/#recursos" className="text-muted-foreground transition-colors hover:text-foreground">
                     Recursos
                   </Link>
@@ -40,11 +45,6 @@ export function Footer() {
                 <li>
                   <Link href="/#precos" className="text-muted-foreground transition-colors hover:text-foreground">
                     Preços
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/#para-quem" className="text-muted-foreground transition-colors hover:text-foreground">
-                    Para quem é
                   </Link>
                 </li>
               </ul>

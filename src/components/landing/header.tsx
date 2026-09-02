@@ -7,9 +7,9 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
+  { label: "Como funciona", href: "/#pilares" },
   { label: "Recursos", href: "/#recursos" },
   { label: "Preços", href: "/#precos" },
-  { label: "Para quem é", href: "/#para-quem" },
 ];
 
 export function Header() {

@@ -9,12 +9,10 @@ export function Pricing() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-            Comece grátis hoje
+            Menos que o valor de meia hora-aula por mês para transformar sua carreira autônoma.
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Teste completo por 7 dias, com o que você usa no dia a dia. Sem
-            cartão de crédito. Depois escolha mensal ou anual — o anual sai mais
-            barato.
+            Teste completo por 7 dias, sem cartão. Depois escolha mensal ou anual — o anual sai mais barato.
           </p>
         </div>
 
@@ -53,7 +51,7 @@ export function Pricing() {
                 className="mt-8 h-12 w-full rounded-lg text-base font-semibold"
                 render={<Link href={PUBLIC_PLANS.monthly.href} />}
               >
-                Começar teste grátis
+                Começar meus 7 dias grátis agora
               </Button>
             </div>
           </article>
@@ -98,7 +96,7 @@ export function Pricing() {
                 className="mt-8 h-12 w-full rounded-lg bg-brand-600 text-base font-semibold text-white shadow-lg shadow-brand-600/25 transition-all hover:bg-brand-700 hover:shadow-xl hover:shadow-brand-600/30 active:translate-y-px"
                 render={<Link href={PUBLIC_PLANS.yearly.href} />}
               >
-                Começar teste grátis
+                Começar meus 7 dias grátis agora
               </Button>
 
               <p className="mt-4 text-center text-xs text-muted-foreground">

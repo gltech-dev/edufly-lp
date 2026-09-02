@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description: SITE_DESCRIPTION,
   keywords: SITE_KEYWORDS,
   openGraph: {
-    title: `${SITE_NAME} - Suas aulas, seus alunos, seu financeiro`,
+    title: `${SITE_NAME} - Você foca nas aulas, a Edufly cuida do resto`,
     description: SITE_OG_DESCRIPTION,
     images: ["/og-image.png"],
     url: SITE_URL,
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${SITE_NAME} - Plataforma para professores particulares`,
     description:
-      "Landing, aulas, confirmação e cobrança no mesmo painel. Teste grátis por 7 dias.",
+      "Captação, agenda, financeiro e pedagógico em um só sistema. Teste grátis por 7 dias.",
   },
 };
 

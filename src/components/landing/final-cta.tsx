@@ -17,7 +17,7 @@ export function FinalCta() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl lg:text-5xl">
-            Organize suas aulas em um só sistema
+            Chegou a hora de tratar suas aulas como o negócio de alto nível que elas são.
           </h2>
           <p className="mt-4 text-lg text-muted-foreground md:text-xl">
             Cadastre-se, coloque seus alunos e responsáveis e automatize a rotina em minutos — teste grátis por 7 dias.

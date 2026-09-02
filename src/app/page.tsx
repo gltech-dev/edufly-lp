@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { Header } from "@/components/landing/header";
 import { Hero } from "@/components/landing/hero";
 import { PainPoints } from "@/components/landing/pain-points";
+import { Pillars } from "@/components/landing/pillars";
 import { Features } from "@/components/landing/features";
-import { Differentials } from "@/components/landing/differentials";
-import { TargetAudience } from "@/components/landing/target-audience";
+import { Objections } from "@/components/landing/objections";
 import { Pricing } from "@/components/landing/pricing";
 import { Faq } from "@/components/landing/faq";
 import { FinalCta } from "@/components/landing/final-cta";
@@ -26,9 +26,9 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <PainPoints />
+        <Pillars />
         <Features />
-        <Differentials />
-        <TargetAudience />
+        <Objections />
         <Pricing />
         <Faq />
         <FinalCta />

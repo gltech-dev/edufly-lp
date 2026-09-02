@@ -17,16 +17,17 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-4 pb-16 pt-20 sm:px-6 md:pb-24 md:pt-32 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-            Suas aulas, seus alunos, seu financeiro.
+            Você entrega um serviço de alto valor intelectual.
             <br />
             <span className="bg-gradient-to-r from-brand-600 to-green-500 bg-clip-text text-transparent">
-              Tudo no mesmo lugar.
+              Está na hora de parar de gerenciar suas aulas no improviso.
             </span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-base text-muted-foreground sm:text-lg md:text-xl">
-            Landing com o seu nome, confirmação de presença, Google Calendar, cobrança com aprovação dos responsáveis e
-            portais para pais e alunos. Você ensina; a operação deixa de viver no WhatsApp e na planilha.
+            Centralize captação, agenda, faturamento automatizado e acompanhamento pedagógico em um único sistema.
+            Elimine o caos do WhatsApp, acabe com a inadimplência e transmita a autoridade que o seu trabalho realmente
+            merece — mesmo que você atue 100% sozinho.
           </p>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -35,14 +36,14 @@ export function Hero() {
               className="h-12 rounded-lg bg-brand-600 px-8 text-base font-semibold text-white shadow-lg shadow-brand-600/25 transition-all hover:bg-brand-700 hover:shadow-xl hover:shadow-brand-600/30 active:translate-y-px"
               render={<Link href="https://portal.edufly.com.br" />}
             >
-              Começar grátis — 7 dias
+              Começar teste gratuito de 7 dias
               <ArrowRight className="ml-1 size-4" data-icon="inline-end" />
             </Button>
             <Button
               nativeButton={false}
               variant="ghost"
               className="h-12 rounded-lg px-8 text-base font-semibold"
-              render={<a href="#recursos" />}
+              render={<a href="#pilares" />}
             >
               <Play className="mr-1 size-4" data-icon="inline-start" />
               Ver como funciona
@@ -61,10 +62,8 @@ export function Hero() {
               ))}
             </div>
             <p className="text-sm text-muted-foreground">
-              <span className="font-semibold text-foreground">
-                +50 professores
-              </span>{" "}
-              já organizaram aulas, alunos e cobrança
+              <span className="font-semibold text-foreground">+50 professores particulares</span> já
+              profissionalizaram a rotina e abandonaram as planilhas manuais.
             </p>
           </div>
         </div>

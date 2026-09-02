@@ -13,9 +13,9 @@ import {
 const features = [
   {
     icon: LayoutDashboard,
-    title: "Tudo da sua operação em um só painel",
+    title: "Uma organização para a sua carreira",
     description:
-      "Alunos, aulas, materiais e financeiro ficam juntos, sem planilha paralela nem dado perdido em outra conta. Se você der aula com outro professor, dá para trabalhar na mesma base — sem retrabalho.",
+      "Alunos, aulas, materiais e financeiro ficam ligados à sua organização — o seu espaço de trabalho — sem dados espalhados em contas soltas. Se você der aula com outro professor, a mesma base serve os dois.",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
     image: "/prints/financeiro-dashboard.png",
@@ -23,9 +23,9 @@ const features = [
   },
   {
     icon: Globe,
-    title: "Landing page com o seu nome",
+    title: "Landing page profissional",
     description:
-      "Compartilhe um link seu (ex.: professorjoao.edufly.com.br) com alunos e responsáveis. Planos, preços e contato no ar em minutos — a primeira impressão que fecha matrícula.",
+      "Compartilhe o seu link (ex.: professorjoao.edufly.com.br) com alunos e responsáveis. Planos, preços e contato no ar em minutos — a primeira impressão profissional que fecha novos alunos.",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
     image: "/prints/landing-page.png",
@@ -35,7 +35,7 @@ const features = [
     icon: Bell,
     title: "Confirmação de presença",
     description:
-      "Responsáveis confirmam aulas com antecedência por e-mail. Você reduz no-show, enche a agenda com previsibilidade e deixa de perseguir confirmação no WhatsApp.",
+      "Confirmação das aulas com antecedência. Você reduz no-show e enche a agenda com previsibilidade — sem perseguir a família no WhatsApp.",
     iconBg: "bg-green-50",
     iconColor: "text-green-600",
     image: "/prints/confirmacao-email.png",
@@ -45,7 +45,7 @@ const features = [
     icon: Calendar,
     title: "Google Calendar e lembretes em mais canais",
     description:
-      "Conecte o Google Calendar às suas aulas e combine e-mail com lembretes por WhatsApp quando fizer sentido — inclusive fluxo por QR (estilo WhatsApp Web) com servidor hospedado pela Edufly ou Evolution próprio, conforme a sua configuração.",
+      "Conecte o Google Calendar às aulas e combine e-mail com lembretes por WhatsApp quando fizer sentido para a sua rotina.",
     iconBg: "bg-brand-50",
     iconColor: "text-brand-600",
     image: "/prints/confirmacao-email.png",
@@ -55,7 +55,7 @@ const features = [
     icon: Receipt,
     title: "Financeiro completo",
     description:
-      "Faturas automáticas, cobranças variáveis e controle de inadimplência com visão de receita. Responsáveis aprovam extras antes da fatura — transparência que evita surpresa na cobrança e atrito com a família.",
+      "Faturas automáticas, cobranças variáveis e controle de inadimplência, com visão clara de receita. Chega de surpresa sobre quanto você recebe.",
     iconBg: "bg-amber-50",
     iconColor: "text-amber-600",
     image: "/prints/financeiro-dashboard.png",
@@ -99,10 +99,11 @@ export function Features() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">
-            Tudo em um só lugar — para você dar aula
+            Tudo em um só lugar
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Do primeiro contato na landing ao pagamento confirmado: fluxos que se conversam no seu painel.
+            Do primeiro contato na landing ao pagamento confirmado: fluxos que se conversam — para quem atua solo ou em
+            equipe.
           </p>
         </div>
 
